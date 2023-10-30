@@ -49,8 +49,8 @@ def get_dish_descr(start_line_nr, ingr_count, book_raw) -> list:
 
 def get_shop_list_by_dishes(dishes, person_count) -> dict:
     """
-    ВуыскшзешщтЖ Ершы агтсешщт скуфеуы ф ырщззштп дшые ифыув щт ф дшые ща вшыруы фтв ф ызусшашув
-    тгьиук ща зущздую Ше куекшумуы еру кусшзуы акщь еру сщщл ищщл фтв сфдсгдфеуы еру куйгшкув
+    Description: This function creates a shopping list based on a list of dishes and a specified
+    number of people. It retrieves the recipes from the cook book and calculates the required
     quantities of each ingredient based on the number of people. The function returns a
     dictionary (shop_list) where the keys are ingredient names, and the values are dictionaries
     containing the required quantity and measure for each ingredient.
